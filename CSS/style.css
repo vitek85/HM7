@@ -1,0 +1,153 @@
+body {
+    margin: 0 150px 140px 150px;
+
+   
+}
+
+.all {
+    background-image: url(../img/grif.png);
+    padding-top: 143px;
+    padding-bottom: 640px;
+    width: 930px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    overflow: hidden;
+}
+
+
+div {
+    list-style: none;
+}
+
+.who {
+    color: #616161;
+    font-size: 12px;
+    margin-top: 145px;
+    margin-bottom: 35px;
+}
+
+.hello {
+    color: #00A3A5;
+    font-size: 48px;
+    font-family: MontserratRegular;
+    font-weight: 500;
+    margin-bottom: 45px;
+
+}
+
+.we {
+    color: #616161;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    width: 514px;  
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.content {
+    display: flex;
+    margin-top: 110px;
+    
+
+    
+}
+
+.sectin {
+    color: #641219;
+    width: 25%;
+    padding: 40px 15px;
+    text-align: center;
+    width: 230px;
+    height: 420px;
+}
+
+.back {
+    width: 230px;
+    height: 420px;
+    background-color: #1b1b1b;
+    opacity: 7%;
+    border: 1px solid #1b1b1b;
+    margin-top: -40px;
+}
+
+.ww {
+    margin-top: -340px;
+}
+
+.anchor {
+    
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: #1b1b1b;
+
+ } 
+
+ .graph{
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+    color: #1b1b1b;
+ }
+
+ .fresh {
+    
+    color: #777777;
+    margin-top: 34px;
+    width: 174px;
+    margin-left: 15px;
+    
+ }
+
+ section:hover {
+    background-color: #27b4b6;
+    opacity: 65%;
+}
+
+section:hover .anchor {
+    color: white;
+    opacity: 100%;
+}
+
+section:hover .graph {
+    color: white;
+    opacity: 100%;
+}
+
+
+
+
+section:hover .fresh{
+    color: white;
+    opacity: 100%;
+}
+
+section:hover .anchorimg{
+    filter: invert(100%);
+    opacity: 100%;
+}
+
+    @font-face{
+        font-family: "MontserratRegular";
+        src: url(../fonts/MontserratRegular.ttf);
+    }
+    
+    
+
+
+
